@@ -1,0 +1,35 @@
+@use '../../styles/variables' as *;
+
+.home {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: $space-4;
+}
+
+.home__badge {
+  display: inline-block;
+  padding: $space-1 $space-2;
+  border-radius: $radius-sm;
+  background: $color-primary;
+  color: $color-bg;
+  font-size: 0.75rem;
+  letter-spacing: 0.02em;
+}
+
+.home__title {
+  margin: $space-2 0 $space-2;
+  font-size: 2rem;
+}
+
+.home__text {
+  margin: 0;
+  color: $color-muted;
+}
+
+.home__card {
+  margin-top: $space-3;
+  padding: $space-3;
+  border: 1px solid $color-border;
+  border-radius: $radius-md;
+  background: #f9fafb;
+}
