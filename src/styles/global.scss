@@ -1,9 +1,11 @@
+@use './variables' as *;
+
 :root {
-  font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  font-family: $font-sans;
   line-height: 1.5;
   font-weight: 400;
-  color: #111;
-  background: #fff;
+  color: $color-text;
+  background: $color-bg;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 }
@@ -21,11 +23,10 @@ body {
 }
 
 .app {
-  padding: 2rem;
+  padding: $space-4;
 }
 
 code {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
-    'Liberation Mono', 'Courier New', monospace;
+  font-family: $font-mono;
   font-size: 0.95em;
 }
