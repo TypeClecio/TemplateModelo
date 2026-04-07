@@ -46,3 +46,6 @@ npm run lint
 
 ## Observacoes
 Sinta-se a vontade para ajustar este template conforme as necessidades do seu projeto.
+
+## SEO (Importante)
+**E essencial atualizar as configuracoes de SEO** (title, description, sitemap, robots e manifest) para refletir o seu projeto e dominio.
