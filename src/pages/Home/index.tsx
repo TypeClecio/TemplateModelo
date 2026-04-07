@@ -1,4 +1,4 @@
-import { homeContent } from '../../data/home'
+import { homeContent } from '@data/home'
 import './styles.scss'
 
 function Home() {

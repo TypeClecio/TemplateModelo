@@ -1,4 +1,4 @@
-﻿import type { HomeContent } from '../interfaces/home'
+﻿import type { HomeContent } from '@interfaces/home'
 
 export const homeContent: HomeContent = {
   badge: 'Exemplo',
