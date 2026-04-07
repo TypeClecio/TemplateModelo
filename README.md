@@ -7,6 +7,7 @@ Este projeto e um modelo base para iniciar novos projetos front-end com React. E
 - TypeScript
 - Vite
 - React Router
+- SCSS
 - ESLint
 
 ## Como usar
