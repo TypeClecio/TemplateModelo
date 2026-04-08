@@ -1,19 +1,15 @@
 ﻿import { aboutContent } from '@data'
-import './styles.scss'
+import { Badge, BulletList, Card, Page, Text, Title } from '@shared'
 
 function About() {
   return (
-    <main className="about">
-      <span className="about__badge">{aboutContent.badge}</span>
-      <h1 className="about__title">{aboutContent.title}</h1>
-      <p className="about__text">{aboutContent.description}</p>
-      <ul className="about__list">
-        {aboutContent.points.map((point) => (
-          <li key={point}>{point}</li>
-        ))}
-      </ul>
-      <div className="about__note">{aboutContent.note}</div>
-    </main>
+    <Page>
+      <Badge variant="neutral">{aboutContent.badge}</Badge>
+      <Title>{aboutContent.title}</Title>
+      <Text>{aboutContent.description}</Text>
+      <BulletList items={aboutContent.points} />
+      <Card variant="dashed">{aboutContent.note}</Card>
+    </Page>
   )
 }
 

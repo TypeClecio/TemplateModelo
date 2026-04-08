@@ -1,23 +1,18 @@
-import { homeContent } from '@data'
-import { Link } from 'react-router-dom'
-import './styles.scss'
+﻿import { homeContent } from '@data'
+import { Badge, Card, InlineCode, LinkButton, Page, Text, Title } from '@shared'
 
 function Home() {
   return (
-    <main className="home">
-      <span className="home__badge">{homeContent.badge}</span>
-      <h1 className="home__title">{homeContent.title}</h1>
-      <p className="home__text">
-        {homeContent.text} <code>{homeContent.codePath}</code>{' '}
+    <Page>
+      <Badge variant="primary">{homeContent.badge}</Badge>
+      <Title>{homeContent.title}</Title>
+      <Text>
+        {homeContent.text} <InlineCode>{homeContent.codePath}</InlineCode>{' '}
         {homeContent.textContinuation}
-      </p>
-      <div className="home__card">
-        {homeContent.card}
-      </div>
-      <Link className="home__link" to="/about">
-        Ir para About
-      </Link>
-    </main>
+      </Text>
+      <Card>{homeContent.card}</Card>
+      <LinkButton to="/about">Ir para About</LinkButton>
+    </Page>
   )
 }
 

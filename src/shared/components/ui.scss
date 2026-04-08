@@ -1,32 +1,45 @@
-@use '../../styles/variables' as *;
+﻿@use '../../styles/variables' as *;
 
-.home {
+.page {
   max-width: 720px;
   margin: 0 auto;
   padding: $space-4;
 }
 
-.home__badge {
+.badge {
   display: inline-block;
   padding: $space-1 $space-2;
   border-radius: $radius-sm;
-  background: $color-primary;
-  color: $color-bg;
   font-size: 0.75rem;
   letter-spacing: 0.02em;
 }
 
-.home__title {
+.badge--primary {
+  background: $color-primary;
+  color: $color-bg;
+}
+
+.badge--neutral {
+  background: $color-border;
+  color: $color-text;
+}
+
+.title {
   margin: $space-2 0 $space-2;
   font-size: 2rem;
 }
 
-.home__text {
-  margin: 0;
+.text {
+  margin: 0 0 $space-3;
   color: $color-muted;
 }
 
-.home__card {
+.inline-code {
+  font-family: $font-mono;
+  font-size: 0.95em;
+}
+
+.card {
   margin-top: $space-3;
   padding: $space-3;
   border: 1px solid $color-border;
@@ -34,7 +47,18 @@
   background: #f9fafb;
 }
 
-.home__link {
+.card--dashed {
+  border-style: dashed;
+  background: #f8fafc;
+}
+
+.list {
+  margin: 0;
+  padding-left: 1.25rem;
+  color: $color-text;
+}
+
+.link-button {
   display: inline-flex;
   margin-top: $space-3;
   padding: $space-2 $space-3;
@@ -46,7 +70,7 @@
   transition: background 0.2s ease, color 0.2s ease;
 }
 
-.home__link:hover {
+.link-button:hover {
   background: $color-primary;
   color: $color-bg;
 }
