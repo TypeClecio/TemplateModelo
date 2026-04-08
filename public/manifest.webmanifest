@@ -1,7 +1,7 @@
 {
-  "name": "Template Modelo",
-  "short_name": "Template",
-  "description": "Modelo base para iniciar projetos front-end com React, TypeScript, Vite e React Router.",
+  "name": "TemplateBase",
+  "short_name": "TemplateBase",
+  "description": "TemplateBase e a base para iniciar projetos front-end com React, TypeScript e Vite.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",

@@ -1,6 +1,6 @@
-# Template React + TypeScript + Vite
+# TemplateBase
 
-Este projeto e um modelo base para iniciar novos projetos front-end com React. Ele fornece a configuracao minima para desenvolvimento rapido com hot reload e boas praticas de lint.
+TemplateBase e um modelo base para iniciar novos projetos front-end com React. Ele fornece a configuracao minima para desenvolvimento rapido com hot reload e boas praticas de lint.
 
 ## Tecnologias
 - React
