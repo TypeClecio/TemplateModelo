@@ -1,4 +1,5 @@
 import { homeContent } from '@data'
+import { Link } from 'react-router-dom'
 import './styles.scss'
 
 function Home() {
@@ -13,6 +14,9 @@ function Home() {
       <div className="home__card">
         {homeContent.card}
       </div>
+      <Link className="home__link" to="/about">
+        Ir para About
+      </Link>
     </main>
   )
 }
